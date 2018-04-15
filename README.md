@@ -20,18 +20,23 @@ Example Commands known to work against OWASP BWA Mutillidae II
 
 SQL Pre-Specified GET and Fuzz
 Double-Quote necessary to avoid win cli confusion on commands
+
 py basicscanner.py -S -F -H "http://IP/mutillidae/index.php?page=user-info.php&username=&password=&user-info-php-submit-button=View+Account+Details"
 
 SQL Form-Search and Fuzz
+
 py basicscanner.py -S -F -H http://IP/mutillidae/index.php?page=user-info.php
 
 SQL form-Search, fuzz, crawl depth 3
+
 py basicscanner.py -S -F -C -D 3 -H "http://IP/mutillidae/"
 
 XSS Fuzz
+
 py basicscanner.py -X -H http://IP/mutillidae/index.php?page=user-info.php
 
 XSS with crawling depth 2
+
 py basicscanner.py -X -C -D 2 -H http://IP/mutillidae/index.php?page=user-info.php
 
 LFI Testing on single parameter
