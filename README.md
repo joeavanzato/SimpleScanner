@@ -8,12 +8,19 @@ To-Do Plans: More robust crawling, better payload construction, additional SQLi 
 This utility represents a naive attempt at vulnerability scanning for (currently) Reflected Cross Site Scripting (XSS), Error-Based SQL Injection and Local File Inclusions.  It is currently extremely simple/basic and likely returns a high false-positive rate depending upon the web-application being tested.
 
 -H - Specify Web-Host for scanning, Use surrounding double-quotes if giving GET parameters
+
 -P - Only check these POST parameters in XSS/SQL tests
+
 -G - Only check these GET parameters in XSS/SQL tests
+
 -X - Perform Reflected XSS Injection Testing
+
 -S - Perform Error-Based SQL Injection Testing
+
 -F - Form-Search - Use if supplying base-page rather than full GET request to SQL tests
+
 -C - Enable site crawling
+
 -D - Give depth 1-5 to determine overall recursiveness of site crawl
 
 Example Commands known to work against OWASP BWA Mutillidae II
