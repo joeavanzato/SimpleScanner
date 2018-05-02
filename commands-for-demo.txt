@@ -1,0 +1,23 @@
+Help + Usage Instructions - Using multiple modules simultaneously is not recommended
+py basicscanner2.py -h
+
+SQL Pre-Specified GET URI with form parameters
+Double-Quote necessary to avoid win cli confusion on commands
+py basicscanner2.py -S -H "http://IP/mutillidae/index.php?page=user-info.php&username=&password=&user-info-php-submit-button=View+Account+Details"
+
+SQL Form-Search given base page
+py basicscanner2.py -S -F -H http://IP/mutillidae/index.php?page=user-info.php
+
+SQL form-Search, fuzz, crawl depth 3
+py basicscanner2.py -S -F -C -D 3 -H "http://IP/mutillidae/"
+
+XSS fuzzing given base page
+py basicscanner2.py -X -H http://IP/mutillidae/index.php?page=user-info.php
+
+XSS with crawling depth 2
+py basicscanner2.py -X -C -D 2 -H http://IP/mutillidae/
+
+LFI Testing on single parameter- not dynamic enough yet for crawling capabilities- must specify URI with 'parameter=' form to test specific parameter for LFI
+py basicscanner2.py -L -H http://IP/mutillidae/index.php?page=
+
+

