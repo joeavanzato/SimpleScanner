@@ -17,6 +17,8 @@ import bs4 #third party
 import re
 import urllib
 
+requests.packages.urllib3.disable_warnings() 
+
 parser = argparse.ArgumentParser(usage = '\n--Page (-H) [Scan-Target]\n--Post (-P) [Specify POST Parameters to check for SQL Injection]\n --Get (-G) [Specify GET parameters to check for SQL Injection]\n --xss (-X) [Enable Reflected Cross Site Scripting Tests]\n --lfi (-L) [Enable Local File Inclusion Tests]\n --sql (-S) [Enable SQL Injection Tests]\n --formsearch (-F) [Enable Form-Searching]\n --crawl (-C) [Enable Page Crawling]\n --depth (-D) [Specify Optional Crawl Depth]')
 parser.add_argument("-H", "--Page", help='Specify FQDN Page for Scanning (If using -S, supply entire URL encased in double-quotes ex. "http://localhost?page=test&username=test&passaword=test", If using -X, only base page needed, If using -S supply entire GET request for desired SQL Fuzzing)', required = True)
 parser.add_argument("-P", "--Post", help='Specify POST parameters to check for SQL Injection (Example: \'Key1, Key2\')', nargs="+")
